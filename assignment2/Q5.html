@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom List Marker</title>
+    <style>
+        /* Style the unordered list */
+        ul {
+            list-style-image: url('https://images.squarespace-cdn.com/content/v1/57713a8e2994cae381dd86fe/1510405002757-FP2W9HV8ZA0HP2IF3O6A/SOA-PNG.png'); /* Replace with the actual SOA Logo URL */
+            padding-left: 40px; /* Add space to align the text with the marker */
+            font-family: sans-serif; /* Set font to sans-serif */
+        }
+
+        li {
+            margin-bottom: 10px; /* Add spacing between list items */
+        }
+
+        /* Ensure proper alignment and styling of the list image */
+        ul {
+            list-style-type: none; /* Remove default markers */
+        }
+
+        ul li {
+            position: relative; /* Position relative for background customization */
+            padding-left: 40px; /* Space for the custom image */
+            background-image: url('https://images.squarespace-cdn.com/content/v1/57713a8e2994cae381dd86fe/1510405002757-FP2W9HV8ZA0HP2IF3O6A/SOA-PNG.png'); /* Replace with the SOA logo */
+            background-repeat: no-repeat;
+            background-size: 30px 30px; /* Set size for the logo */
+            background-position: left center; /* Align logo vertically and horizontally */
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+</body>
+</html>

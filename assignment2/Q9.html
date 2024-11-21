@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Dropdown</title>
+    <style>
+        /* Base container */
+        .dropdown-container {
+            /* position: relative;
+            display: inline-block; */
+            margin: 50px; /* Adjust positioning on the page */
+        }
+
+        /* Hover area to display the dropdown */
+        .hover-area {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            
+            font-family: Arial, sans-serif;
+        }
+
+        /* Dropdown menu */
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        /* Show dropdown when hover area is hovered */
+        .dropdown-container:hover .dropdown-menu {
+            display: block;
+        }
+
+        /* Dropdown items with individual styles */
+        .dropdown-menu div {
+            padding: 10px;
+            font-family: Arial, sans-serif;
+            cursor: pointer;
+        }
+
+       
+
+        .dropdown-item1 {
+            color: red;
+            font-size: 14px;
+            font-family: "Courier New", monospace;
+        }
+
+        .dropdown-item2 {
+            color: blue;
+            font-size: 16px;
+            font-family: "Georgia", serif;
+        }
+
+        .dropdown-item3 {
+            color: green;
+            font-size: 18px;
+            font-family: "Verdana", sans-serif;
+        }
+
+      
+    </style>
+</head>
+<body>
+
+   
+    <div class="dropdown-container">
+        
+        <div class="hover-area">Hover Here</div>
+
+        <!-- Dropdown Menu -->
+        <div class="dropdown-menu">
+            <div class="dropdown-item1">Option 1</div>
+            <div class="dropdown-item2">Option 2</div>
+            <div class="dropdown-item3">Option 3</div>
+            
+        </div>
+    </div>
+
+</body>
+</html>
